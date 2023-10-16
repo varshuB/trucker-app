@@ -1,0 +1,105 @@
+.nav-bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-bar .left-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar .logo-box {
+    margin-left: 20px;
+}
+
+.nav-bar .main-logo{
+font-size: 24px;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: rgb(247, 10, 10);
+}
+
+.logo-box span{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(238, 8, 8);
+    font-family:'Times New Roman', Times, serif;
+}
+.nav-bar .location-selector{
+    margin-left: 50px;
+}
+.nav-bar .location-selector select{
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+.nav-bar .location-selector select option{
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+.nav-bar .right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.nav-bar .right-part li{
+    margin-right: 15px;
+}
+.nav-bar .right-part .nav-button-1{
+    border: none;
+    color: rgb(19, 151, 212);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav-bar .right-part .nav-button-2{
+    border: none;
+    color: rgb(19, 151, 212);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav-bar .right-part .nav-button-3{
+    border: none;
+    color: rgb(19, 151, 212);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav-bar .right-part .nav-button-4{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(238, 8, 8) ;
+    padding: 5px 20px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+/* media queries start */
+
+@media (max-width:1024px) {
+    
+    
+}
+
+
+
+/* media queries end */

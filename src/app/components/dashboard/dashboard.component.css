@@ -1,0 +1,429 @@
+.second-nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(214, 204, 204);
+    gap: 400px;
+    align-items: center;
+    text-align: center;
+}
+mat-tab-label{
+    color: white;
+}
+.last-part{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.last-part mat-icon{
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.last-part p{
+   margin-top: 10px;
+   padding-left: 5px;
+   font-size: 12px;
+   cursor: pointer;
+}
+
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.main-heading h4{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(19, 151, 212);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.main-heading .sub-heading{
+    display: flex;
+    align-items: baseline;
+    margin-top: -10px;
+    margin-left: 1%;
+}
+.main-heading .sub-heading p{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.main-heading .sub-heading select{
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: rgb(211, 213, 214);
+    color: rgb(19, 151, 212);
+    margin-left: 10px;
+}
+.main-heading .sub-heading mat-icon {
+color: red;
+font-size: 24px;
+position: relative;
+top: 8px;
+left: 3px;
+}
+.search-section{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 70%;
+    background-color: white; 
+ box-shadow: 0px 0px 12px -1px black;
+ border-radius: 10px;
+}
+.search-section .options-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-section .options-part div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0;
+}
+.search-section .options-part div label{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.search-section .options-part select{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:white;
+    color: rgb(19, 151, 212);
+ margin-left: -5px;
+ margin-top: 10px;
+}
+.search-section .options-part button{
+    padding: 2px 20px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 23px 10px 10px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.search-section .options-part button mat-icon{
+    font-size: 20px;
+}
+.recent-searches{
+    margin-left: 11%;
+    margin-top: 10px;
+    display: flex;
+}
+.recent-searches .heading p{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(19, 151, 212);
+    font-weight: 500;
+}
+.recent-searches .options{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 10px;
+    gap: 15px;
+}
+.available-sec{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 5%;
+   
+}
+.available-sec .main-head{
+    display: flex;
+}
+.available-sec .main-head mat-icon{
+    color: green;
+    margin-left: 10px;
+    margin-top: 3px;
+    transition: all .15s ease-in-out;
+    animation: fadeup infinite 2s;
+}
+@keyframes fadeup{
+    0%{
+        transform: scale(0.8,0.8);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1.1,1.1);
+        opacity: 1;
+    }
+    
+}
+::ng-deep .owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    /* margin-right: 20px; */
+    padding-right: 15px;
+}
+.slide{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    /* margin: 10px; */
+    box-shadow: 0px 0px 12px -5px black;
+}
+.slide .slide-img{
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+    margin-top: 10px;
+}
+.slide .slide-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.slide .slide-info{
+display: flex;
+flex-direction: column;
+margin-left: 5px;
+line-height: 5px;
+}
+
+.slide .slide-info .truck-capacity{
+display: flex;
+justify-content: space-between;
+padding-top: 10px;
+align-items: center;
+text-align: center;
+}
+
+.slide .slide-info .truck-capacity .truck-cap{
+    display: flex;
+    line-height: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slide .slide-info .truck-capacity .truck-cap h3{
+    color: rgb(19, 151, 212);
+    font-weight: 600;
+    padding: 5px;
+   font-size: 20px;
+}
+.slide .slide-info .truck-capacity .truck-cap  h5{
+    font-size: 11px;
+    color: rgb(19, 151, 212);
+
+}
+.slide .slide-info .truck-capacity .truck-cap p{
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: -7px;
+}
+.slide .slide-info .truck-capacity  .truck-dis{
+    background-color: rgb(231, 215, 145);
+   border-radius: 5px;
+     float: right; 
+    margin-left: 55px;
+    margin-top: -20px;
+    height: 30px; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 10px;
+}
+.slide .slide-info .truck-capacity  .truck-dis p{
+    font-size: 10px;
+   padding: 0px 5px;
+   padding-top: 8px;
+   font-weight: 500;
+}
+.slide .slide-info .truck-name p{
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.slide .slide-info .owner-info{
+    display: flex;
+    line-height: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.slide .slide-info .owner-info .name-logo{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.slide .slide-info .owner-info .name-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.slide .slide-info .owner-info .owner-name{
+margin-left: 15px;
+line-height: 5px;
+}
+.slide .slide-info .owner-info .owner-name p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.slide .slide-info .owner-info .owner-name div{
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.slide .slide-info .owner-info .owner-name div mat-icon{
+    font-size: 21px;
+    margin-top: -5px;
+}
+::ng-deep .bx-left-arrow-alt:before {
+    content: "\eb33" !important;
+    font-size: 30px !important;
+    color: red;
+}
+::ng-deep .bx-right-arrow-alt:before {
+    content: "\ebe6" !important;
+    font-size: 30px !important;
+    color: red;
+}
+.category-sec{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+/* media queries start */
+
+@media (max-width:1024px) {
+    .search-section{
+        display: flex;
+        margin-left: 10%;
+        margin-top: 30px;
+        width: 80%;
+        background-color: white; 
+     box-shadow: 0px 0px 12px -1px black;
+     border-radius: 10px;
+    }
+    .search-section .options-part{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .search-section .options-part div{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 0;
+    }
+    .search-section .options-part div label{
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .search-section .options-part select{
+        border: none;
+        /* border-bottom: 1px solid black; */
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+        background-color:white;
+        color: rgb(19, 151, 212);
+     margin-left: -5px;
+     margin-top: 10px;
+    }
+    .search-section .options-part button{
+        padding: 2px 20px;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 23px 10px 10px;
+        display: flex;
+        border-radius: 5px;
+        border: none;
+        background-color: red;
+        color: white;
+    }
+    .search-section .options-part button mat-icon{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .search-section{
+        display: flex;
+        margin-left: 10%;
+        margin-top: 30px;
+        width: 90%;
+        background-color: white; 
+     box-shadow: 0px 0px 12px -1px black;
+     border-radius: 10px;
+    }
+    .search-section .options-part{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .search-section .options-part div{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 0;
+    }
+    .search-section .options-part div label{
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .search-section .options-part select{
+        border: none;
+        /* border-bottom: 1px solid black; */
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 500;
+        background-color:white;
+        color: rgb(19, 151, 212);
+     margin-left: -5px;
+     margin-top: 10px;
+    }
+    .search-section .options-part button{
+        padding: 2px 20px;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px 15px 10px 10px;
+        display: flex;
+        border-radius: 5px;
+        border: none;
+        background-color: red;
+        color: white;
+    }
+    .search-section .options-part button mat-icon{
+        font-size: 20px;
+    }
+    .recent-searches{
+        margin-left: 10%;
+        margin-top: 10px;
+        display: flex;
+    }
+    .recent-searches .heading p{
+        font-size: 15px;
+        text-transform: capitalize;
+        color: rgb(19, 151, 212);
+        font-weight: 500;
+    }
+    .recent-searches .options{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 10px;
+        gap: 15px;
+    }
+}
+
+/* media queries end */

@@ -1,0 +1,147 @@
+.first-section{
+    background-color: aliceblue;
+}
+.card{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.card-body {
+    display: flex;
+}
+.card-body .img-box {
+width: 25%;
+height: 50%;
+border-radius: 5px;
+}
+.card-body .img-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.card-body .card-main-matter{
+    margin-left: 5%;
+}
+.card-body .card-main-matter h4{
+font-size: 20px;
+font-weight: 500;
+color: black;
+}
+.card-body .card-main-matter h4 span{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-body .destination-details{
+    display: flex;
+    margin-left: -3%;
+}
+.card-body .destination-details mat-icon{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.card-body .destination-details mat-icon:first-child{
+    color: green;
+}
+.card-body .destination-details  .maximize{
+    padding-top: 13px;
+ }
+.card-body .destination-details span{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(228, 75, 75);
+    font-weight: 500;
+}
+.card-body .destination-details p{
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.card-body .material-details{
+    display: flex;
+    justify-content: space-between;
+}
+.card-body .material-details .Quantity{
+    display: flex;
+    line-height: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+}
+.card-body .material-details .Quantity mat-icon{
+    font-size: 26px;
+ margin-right: 10px;
+ margin-top: 10px;
+    
+}
+.card-body .material-details .Quantity div h4{
+    font-size: 15px;
+    font-weight: 100px;
+}
+.card-body .material-details .Quantity div p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(19, 151, 212);
+}
+.card-body .material-details .value{
+    display: flex;
+    line-height: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+}
+.card-body .material-details .value mat-icon{
+    font-size: 26px;
+ margin-right: 10px;
+ margin-top: 10px;
+    
+}
+.card-body .material-details .value div h4{
+    font-size: 15px;
+    font-weight: 100px;
+}
+.card-body .material-details .value div p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(19, 151, 212);
+}
+.card-body .material-details .handling{
+    display: flex;
+    line-height: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+}
+.card-body .material-details .handling mat-icon{
+    font-size: 26px;
+ margin-right: 10px;
+ margin-top: 10px;
+    
+}
+.card-body .material-details .handling div h4{
+    font-size: 15px;
+    font-weight: 100px;
+}
+.card-body .material-details .handling div p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(19, 151, 212);
+}
+.card .card-footer{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    padding-top: 10px;
+}
+.card .card-footer p{
+font-size: 13px;
+font-weight: 500;
+}
+.card .card-footer h4{
+    margin-top: -8px;
+    color: rgb(19, 151, 212);
+}

@@ -1,0 +1,573 @@
+<!--second nav start-->
+<section>
+        <div class="second-nav">
+                <div>
+                        <mat-tab-group color="warn">
+                                <mat-tab>
+                                        <ng-template mat-tab-label>For Personal Use</ng-template>
+                                </mat-tab>
+                                <mat-tab>
+                                        <ng-template mat-tab-label>For Companies</ng-template>
+                                </mat-tab>
+                        </mat-tab-group>
+                </div>
+                <div class="last-part">
+                        <mat-icon> departure_board</mat-icon>
+                        <p>TRACK ORDER</p>
+                        <mat-icon> phone</mat-icon>
+                        <p>GET SUPPORT</p>
+                </div>
+        </div>
+</section>
+<!-- second nav end-->
+
+<div class="main-heading">
+        <h4>
+                Truck Booking made easy
+        </h4>
+        <div class="sub-heading">
+                <p>find truck to transport from </p>
+                <select>
+
+                        <option>Vishakapatnam</option>
+                        <option>Delhi</option>
+                        <option>Banglore</option>
+                        <option>Hyderabad</option>
+                </select>
+                <mat-icon>swap_horiz</mat-icon>
+                <select>
+
+                        <option>Delhi</option>
+                        <option>Banglore</option>
+                        <option>Hyderabad</option>
+                        <option>Vishakapatnam</option>
+                </select>
+        </div>
+</div>
+
+
+<div class="search-section">
+        <div class="options-part">
+                <div>
+                        <label>Truck Type</label>
+                        <select>
+                                <option>12 Tyre</option>
+                                <option>10 Tyre</option>
+                                <option>6 Tyre</option>
+                                <option>14 Tyre</option>
+                        </select>
+                </div>
+
+                <div>
+                        <label>for material</label>
+                        <select>
+                                <option>Delhi</option>
+                                <option>Banglore</option>
+                                <option>Hyderabad</option>
+                                <option>Vishakapatnam</option>
+                        </select>
+                </div>
+                <div>
+                        <label>quantity</label>
+                        <select>
+                                <option>Delhi</option>
+                                <option>Banglore</option>
+                                <option>Hyderabad</option>
+                                <option>Vishakapatnam</option>
+                        </select>
+                </div>
+                <div>
+                        <label>delivery by</label>
+                        <select>
+                                <option>Delhi</option>
+                                <option>Banglore</option>
+                                <option>Hyderabad</option>
+                                <option>Vishakapatnam</option>
+                        </select>
+                </div>
+                <button><mat-icon>search</mat-icon><span>Search</span></button>
+
+        </div>
+
+</div>
+<div class="recent-searches">
+        <div class="heading">
+                <p>recent search :</p>
+        </div>
+        <div class="options">
+                <p>searchline 1</p>
+                <p>searchline 1</p>
+                <p>searchline 1</p>
+
+        </div>
+
+</div>
+<div class="available-sec">
+          <div>
+                <div class="main-head">
+                        <h4>Available</h4>
+                        <mat-icon>fiber_manual_record</mat-icon>
+                </div>
+                        <p>Recommended based on your location and booking history</p>
+                </div>
+        <owl-carousel-o [options]="AvailableCarouel">
+              
+                <ng-template carouselSlide class="main-slide">            
+                                <div class="slide ">
+                                        <div class="slide-img">
+                                                <img src="../../../assets/lorry-photo-1.jpg">
+                                        </div>
+                                        <div class="slide-info">
+                                                <div class="truck-capacity">
+                                                        <div class="truck-cap">
+                                                                <div>
+                                                                        <h3>15</h3>
+                                                                </div>
+                                                                <div >
+                                                                        <h5>Tons</h5>
+                                                                        <p>Capacity</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="truck-dis">
+                                                                <p>15 Kms Away</p>
+                                                        </div>
+                                                </div>
+                                                <div class="truck-name">
+                                                        <p>12 Tyre - TATA Truck</p>
+                                                </div>
+                                                <hr style="margin-top: -5px;">
+                                                <div class="owner-info">
+                                                        <div class="name-logo">
+                                                                <img src="../../../assets/lorry-photo-1.jpg">
+                                                        </div>
+                                                        <div class="owner-name">
+                                                                <p>KL Logistics</p>
+                                                                <div >
+                                                                        <mat-icon>star_border</mat-icon>
+                                                                        <mat-icon>star_border</mat-icon>
+                                                                        <mat-icon>star_border</mat-icon>
+                                                                        <mat-icon>star_border</mat-icon>
+                                                                        <mat-icon>star_border</mat-icon>
+                                                                </div>
+                                                        </div>
+                                                </div>
+
+
+                                        </div>
+                                </div>   
+                </ng-template>
+                <ng-template carouselSlide class="main-slide">
+                        <div class="slide ">
+                                <div class="slide-img">
+                                        <img src="../../../assets/lorry-photo-2.jpg">
+                                </div>
+                                <div class="slide-info">
+                                        <div class="truck-capacity">
+                                                <div class="truck-cap">
+                                                        <div>
+                                                                <h3>15</h3>
+                                                        </div>
+                                                        <div >
+                                                                <h5>Tons</h5>
+                                                                <p>Capacity</p>
+                                                        </div>
+                                                </div>
+                                                <div class="truck-dis">
+                                                        <p>15 Kms Away</p>
+                                                </div>
+                                        </div>
+                                        <div class="truck-name">
+                                                <p>12 Tyre - TATA Truck</p>
+                                        </div>
+                                        <hr style="margin-top: -5px;">
+                                        <div class="owner-info">
+                                                <div class="name-logo">
+                                                        <img src="../../../assets/lorry-photo-2.jpg">
+                                                </div>
+                                                <div class="owner-name">
+                                                        <p>KL Logistics</p>
+                                                        <div >
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+                        </div>
+
+                </ng-template>
+                <ng-template carouselSlide class="main-slide">
+                        <div class="slide ">
+                                <div class="slide-img">
+                                        <img src="../../../assets/lorry-photo-3.jpg">
+                                </div>
+                                <div class="slide-info">
+                                        <div class="truck-capacity">
+                                                <div class="truck-cap">
+                                                        <div>
+                                                                <h3>15</h3>
+                                                        </div>
+                                                        <div >
+                                                                <h5>Tons</h5>
+                                                                <p>Capacity</p>
+                                                        </div>
+                                                </div>
+                                                <div class="truck-dis">
+                                                        <p>15 Kms Away</p>
+                                                </div>
+                                        </div>
+                                        <div class="truck-name">
+                                                <p>12 Tyre - TATA Truck</p>
+                                        </div>
+                                        <hr style="margin-top: -5px;">
+                                        <div class="owner-info">
+                                                <div class="name-logo">
+                                                        <img src="../../../assets/lorry-photo-1.jpg">
+                                                </div>
+                                                <div class="owner-name">
+                                                        <p>KL Logistics</p>
+                                                        <div >
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+                        </div>
+
+                </ng-template>
+                <ng-template carouselSlide class="main-slide">
+                        <div class="slide ">
+                                <div class="slide-img">
+                                        <img src="../../../assets/lorry-photo-2.jpg">
+                                </div>
+                                <div class="slide-info">
+                                        <div class="truck-capacity">
+                                                <div class="truck-cap">
+                                                        <div>
+                                                                <h3>15</h3>
+                                                        </div>
+                                                        <div >
+                                                                <h5>Tons</h5>
+                                                                <p>Capacity</p>
+                                                        </div>
+                                                </div>
+                                                <div class="truck-dis">
+                                                        <p>15 Kms Away</p>
+                                                </div>
+                                        </div>
+                                        <div class="truck-name">
+                                                <p>12 Tyre - TATA Truck</p>
+                                        </div>
+                                        <hr style="margin-top: -5px;">
+                                        <div class="owner-info">
+                                                <div class="name-logo">
+                                                        <img src="../../../assets/lorry-photo-2.jpg">
+                                                </div>
+                                                <div class="owner-name">
+                                                        <p>KL Logistics</p>
+                                                        <div >
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+                        </div>
+
+                </ng-template>
+                <ng-template carouselSlide class="main-slide">            
+                        <div class="slide ">
+                                <div class="slide-img">
+                                        <img src="../../../assets/lorry-photo-1.jpg">
+                                </div>
+                                <div class="slide-info">
+                                        <div class="truck-capacity">
+                                                <div class="truck-cap">
+                                                        <div>
+                                                                <h3>15</h3>
+                                                        </div>
+                                                        <div >
+                                                                <h5>Tons</h5>
+                                                                <p>Capacity</p>
+                                                        </div>
+                                                </div>
+                                                <div class="truck-dis">
+                                                        <p>15 Kms Away</p>
+                                                </div>
+                                        </div>
+                                        <div class="truck-name">
+                                                <p>12 Tyre - TATA Truck</p>
+                                        </div>
+                                        <hr style="margin-top: -5px;">
+                                        <div class="owner-info">
+                                                <div class="name-logo">
+                                                        <img src="../../../assets/lorry-photo-1.jpg">
+                                                </div>
+                                                <div class="owner-name">
+                                                        <p>KL Logistics</p>
+                                                        <div >
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                                <mat-icon>star_border</mat-icon>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+                        </div>   
+        </ng-template>
+        </owl-carousel-o>
+
+</div>
+<div class="category-sec">
+        <div>
+                      <h4>Trucks By Category</h4>
+                      <p>Recommended based on your location and booking history</p>
+              </div>
+      <owl-carousel-o [options]="AvailableCarouel">
+            
+              <ng-template carouselSlide class="main-slide">            
+                              <div class="slide ">
+                                      <div class="slide-img">
+                                              <img src="../../../assets/lorry-photo-1.jpg">
+                                      </div>
+                                      <div class="slide-info">
+                                              <div class="truck-capacity">
+                                                      <div class="truck-cap">
+                                                              <div>
+                                                                      <h3>15</h3>
+                                                              </div>
+                                                              <div >
+                                                                      <h5>Tons</h5>
+                                                                      <p>Capacity</p>
+                                                              </div>
+                                                      </div>
+                                                      <div class="truck-dis">
+                                                              <p>15 Kms Away</p>
+                                                      </div>
+                                              </div>
+                                              <div class="truck-name">
+                                                      <p>12 Tyre - TATA Truck</p>
+                                              </div>
+                                              <hr style="margin-top: -5px;">
+                                              <div class="owner-info">
+                                                      <div class="name-logo">
+                                                              <img src="../../../assets/lorry-photo-1.jpg">
+                                                      </div>
+                                                      <div class="owner-name">
+                                                              <p>KL Logistics</p>
+                                                              <div >
+                                                                      <mat-icon>star_border</mat-icon>
+                                                                      <mat-icon>star_border</mat-icon>
+                                                                      <mat-icon>star_border</mat-icon>
+                                                                      <mat-icon>star_border</mat-icon>
+                                                                      <mat-icon>star_border</mat-icon>
+                                                              </div>
+                                                      </div>
+                                              </div>
+
+
+                                      </div>
+                              </div>   
+              </ng-template>
+              <ng-template carouselSlide class="main-slide">
+                      <div class="slide ">
+                              <div class="slide-img">
+                                      <img src="../../../assets/lorry-photo-2.jpg">
+                              </div>
+                              <div class="slide-info">
+                                      <div class="truck-capacity">
+                                              <div class="truck-cap">
+                                                      <div>
+                                                              <h3>15</h3>
+                                                      </div>
+                                                      <div >
+                                                              <h5>Tons</h5>
+                                                              <p>Capacity</p>
+                                                      </div>
+                                              </div>
+                                              <div class="truck-dis">
+                                                      <p>15 Kms Away</p>
+                                              </div>
+                                      </div>
+                                      <div class="truck-name">
+                                              <p>12 Tyre - TATA Truck</p>
+                                      </div>
+                                      <hr style="margin-top: -5px;">
+                                      <div class="owner-info">
+                                              <div class="name-logo">
+                                                      <img src="../../../assets/lorry-photo-2.jpg">
+                                              </div>
+                                              <div class="owner-name">
+                                                      <p>KL Logistics</p>
+                                                      <div >
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                      </div>
+                                              </div>
+                                      </div>
+
+
+                              </div>
+                      </div>
+
+              </ng-template>
+              <ng-template carouselSlide class="main-slide">
+                      <div class="slide ">
+                              <div class="slide-img">
+                                      <img src="../../../assets/lorry-photo-3.jpg">
+                              </div>
+                              <div class="slide-info">
+                                      <div class="truck-capacity">
+                                              <div class="truck-cap">
+                                                      <div>
+                                                              <h3>15</h3>
+                                                      </div>
+                                                      <div >
+                                                              <h5>Tons</h5>
+                                                              <p>Capacity</p>
+                                                      </div>
+                                              </div>
+                                              <div class="truck-dis">
+                                                      <p>15 Kms Away</p>
+                                              </div>
+                                      </div>
+                                      <div class="truck-name">
+                                              <p>12 Tyre - TATA Truck</p>
+                                      </div>
+                                      <hr style="margin-top: -5px;">
+                                      <div class="owner-info">
+                                              <div class="name-logo">
+                                                      <img src="../../../assets/lorry-photo-1.jpg">
+                                              </div>
+                                              <div class="owner-name">
+                                                      <p>KL Logistics</p>
+                                                      <div >
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                      </div>
+                                              </div>
+                                      </div>
+
+
+                              </div>
+                      </div>
+
+              </ng-template>
+              <ng-template carouselSlide class="main-slide">
+                      <div class="slide ">
+                              <div class="slide-img">
+                                      <img src="../../../assets/lorry-photo-2.jpg">
+                              </div>
+                              <div class="slide-info">
+                                      <div class="truck-capacity">
+                                              <div class="truck-cap">
+                                                      <div>
+                                                              <h3>15</h3>
+                                                      </div>
+                                                      <div >
+                                                              <h5>Tons</h5>
+                                                              <p>Capacity</p>
+                                                      </div>
+                                              </div>
+                                              <div class="truck-dis">
+                                                      <p>15 Kms Away</p>
+                                              </div>
+                                      </div>
+                                      <div class="truck-name">
+                                              <p>12 Tyre - TATA Truck</p>
+                                      </div>
+                                      <hr style="margin-top: -5px;">
+                                      <div class="owner-info">
+                                              <div class="name-logo">
+                                                      <img src="../../../assets/lorry-photo-2.jpg">
+                                              </div>
+                                              <div class="owner-name">
+                                                      <p>KL Logistics</p>
+                                                      <div >
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                      </div>
+                                              </div>
+                                      </div>
+
+
+                              </div>
+                      </div>
+
+              </ng-template>
+              <ng-template carouselSlide class="main-slide">            
+                      <div class="slide ">
+                              <div class="slide-img">
+                                      <img src="../../../assets/lorry-photo-1.jpg">
+                              </div>
+                              <div class="slide-info">
+                                      <div class="truck-capacity">
+                                              <div class="truck-cap">
+                                                      <div>
+                                                              <h3>15</h3>
+                                                      </div>
+                                                      <div >
+                                                              <h5>Tons</h5>
+                                                              <p>Capacity</p>
+                                                      </div>
+                                              </div>
+                                              <div class="truck-dis">
+                                                      <p>15 Kms Away</p>
+                                              </div>
+                                      </div>
+                                      <div class="truck-name">
+                                              <p>12 Tyre - TATA Truck</p>
+                                      </div>
+                                      <hr style="margin-top: -5px;">
+                                      <div class="owner-info">
+                                              <div class="name-logo">
+                                                      <img src="../../../assets/lorry-photo-1.jpg">
+                                              </div>
+                                              <div class="owner-name">
+                                                      <p>KL Logistics</p>
+                                                      <div >
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                              <mat-icon>star_border</mat-icon>
+                                                      </div>
+                                              </div>
+                                      </div>
+
+
+                              </div>
+                      </div>   
+      </ng-template>
+      </owl-carousel-o>
+
+</div>

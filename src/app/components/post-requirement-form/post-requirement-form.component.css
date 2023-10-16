@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+    padding-top: 20px;
+    background-color: rgb(231, 240, 240);
+}
+
+.header h4 {
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(19, 151, 212);
+}
+
+.header p {
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card {
+    width: 70%;
+    height: 60px;
+    line-height: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 5px -1px black;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card-body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card-body mat-icon {
+    color: red;
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+    /* background-color: rgb(58, 76, 92); */
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-top: -8px;
+    border: 2px solid grey;
+}
+
+.card-body div{
+    margin-left: 10px;
+    align-items: start;
+    justify-content: start;
+    padding-bottom: 0px;
+  
+    margin-top: -6px;
+}
+
+.card-body div h4 {
+    font-size: 15px;
+    color: black;
+}
+
+.card-body div p {
+    font-size: 12px;
+    color: black;
+}

@@ -1,0 +1,24 @@
+<!--login popup start-->
+<mat-card>
+<div mat-dialog-title class="header"> 
+    <h4>Please Register with Your Mobile Number</h4> 
+    <button mat-icon-button color="warn" aria-label="Example icon button with a home icon" (click)="close()">
+        <mat-icon>clear</mat-icon>
+      </button>
+</div>
+<div mat-dialog-content class="content">
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Mobile Number</mat-label>
+          <span matPrefix>+91 &nbsp;</span>
+          <input type="tel" matInput placeholder="Enter Mobile Number">
+        </mat-form-field>
+      </form>
+      <div class="last-section">
+      <button mat-raised-button color="warn">GET OTP</button>
+      <a href="#">New here? Register Now</a>
+    </div>
+</div>
+</mat-card>
+
+<!--login popup start-->

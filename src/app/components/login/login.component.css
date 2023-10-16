@@ -1,0 +1,30 @@
+mat-card{
+justify-content: center;
+align-items: center;
+}
+.header{
+    display: flex;
+    padding-top: 30px;
+    background-color: rgb(231, 240, 240);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header h4{
+    color: rgb(19, 151, 212);
+}
+.header button{
+    margin-top: -10px;
+}
+.content{
+    margin-top: 50px;
+}
+
+.last-section{
+    display: flex;
+    flex-direction: column;
+}
+.last-section a{
+    margin-top: 20px;
+    margin-left: 25px;
+}

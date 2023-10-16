@@ -1,0 +1,38 @@
+<div mat-dialog-title class="header">
+    <div>
+        <h4>Choose a category that suits you best</h4>
+        <p>Let us know your reuirementto serve you better with suitable options</p>
+    </div>
+    <button mat-icon-button color="warn" aria-label="Example icon button with a home icon" (click)="close()">
+        <mat-icon>clear</mat-icon>
+    </button>
+</div>
+<div mat-dialog-content class="content">
+    <div class="card" (click)="openFillForm()">
+        <div class="card-body">
+            <mat-icon>airport_shuttle</mat-icon>
+            <div>
+                <h4>I need a Truck</h4>
+                <p>For people having Material ready to be shipped</p>
+            </div>
+        </div>
+    </div>
+    <div class="card" (click)="openFillForm1()">
+        <div class="card-body">
+            <mat-icon>layers</mat-icon>
+            <div>
+                <h4>I need a Material</h4>
+                <p>For people looking for Material to be shipped</p>
+            </div>
+        </div>
+    </div>
+    <div class="card" (click)="openFillForm2()">
+        <div class="card-body">
+            <mat-icon>layers</mat-icon>
+            <div>
+                <h4>I need Material and Truck</h4>
+                <p>For people looking for both Material and Truck for shipment</p>
+            </div>
+        </div>
+    </div>
+</div>

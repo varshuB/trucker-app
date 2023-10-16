@@ -1,0 +1,52 @@
+::ng-deep .mat-mdc-text-field-wrapper {
+    width: 40% !important;
+    margin-top: 5px;
+}
+
+.form-content {
+    position: relative;
+    top: 0;
+    left: 5%;
+}
+
+/* choose category css */
+
+.left-nav-wrap {
+    background: #E5F3FB;
+    width: 260px;
+    height: 84vh;
+    border-radius: 10px;
+    padding-top: 30px;
+    position: fixed;
+}
+
+.col-md-10 {
+    width: 87.89%;
+}
+
+.dashboard-right-content {
+    min-height: 73vh;
+}
+
+.dashboard-right-content {
+    background: #fff;
+    margin: 11px;
+}
+
+.mat-button.mat-success,
+.mat-stroked-button.mat-success {
+    color: #155724;
+}
+
+.mat-button.mat-success:hover,
+.mat-stroked-button.mat-success:hover {
+    background-color: #f0fff3;
+}
+
+.shippingSaveData {
+    left: 270px;
+}
+
+.shippingCancel {
+    left: 20px;
+}
